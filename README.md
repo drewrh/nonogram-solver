@@ -18,7 +18,7 @@ The player begins the game with an empty grid with no known tiles. Each row and 
 
 ### High-level overview
 
-Our technique begins by first generating all possible domains for each row and column. For a row with a size of 5 and the values of [2, 1] the domain values would be:
+The technique begins by first generating all possible domains for each row and column. For a row with a size of 5 and the values of [2, 1] the domain values would be:
 
 - [▮▮▯▮▯]
 - [▮▮▯▯▮]
