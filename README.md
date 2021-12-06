@@ -61,7 +61,7 @@ The program expects an input file with three lines of text.
 
 ### Steps to run nonogram_solver.py
 
-1. `git clone https://github.ncsu.edu/arhughle/csc411-nonogram.git`
+1. `git clone https://github.com/drewrh/nonogram-solver.git`
 2. `cd ./csc411-nonogram`
 3. `pip install -r requirements.txt`
 4. `python3 ./nonogram_solver.py ./test-inputs/input_25_03.txt`
