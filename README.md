@@ -45,9 +45,7 @@ Lastly, when iterating over the row domains, if a row domain has a length of 1 (
 
 After we are done iterating over the row domains, we then iterate over the column domains and perform the same actions that we did with the row domains. The algorithm stops looping over these steps once either the rows or columns have been solved, as we only need one of them to be solved for the puzzle to be completed.
 
-### Limitations
-
-This approach has one limitation and that is it cannot solve nonograms that require guess-and-check to solve. However it is because of this limitation that allows the algorithm to function. Because we can assume that the puzzles do not require guess-and-check, we know that there will always be a domain intersection somewhere in the puzzle until it is solved.
+The current approach has one limitation and that is it cannot solve nonograms that require guess-and-check to solve. This functionality can be added by using a search algorithm, but this program is focused on solving puzzles made for human players. Most humans would not enjoy playing a 25x25 puzzle that required guessing :)
 
 ## Using the program
 
